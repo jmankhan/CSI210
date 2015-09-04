@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jalal Khan</title>
+</head>
+<body>
+
+  <canvas id="myCanvas" width="500" height="150" style="border:1px solid #d3d3d3;">
+    Your browser does not support the HTML5 canvas tag.</canvas>
+    
+    <h3>A WILD NEURAL NET APPEARED<sup><em>You should mouse over it after I add css</em></sup></h3>
+  </br>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Colored_neural_network.svg/300px-Colored_neural_network.svg.png" alt="Much Wow">
+
+  <hr/>
+  <p>Testimonial</p>
+  <blockquote>They are the best - Jalal Khan</blockquote>
+  <dl>
+    <dt>Simple to use!</dt>
+    <dd>
+      <code>
+        NeuralNet net = new NeuralNet();
+      </code>
+      <br/>
+      <code>
+        net.doThings();
+      </code>
+    </dd>
+  </dl>
+
+  <h3>And now, some HTML basics!</h3>
+  <ol>
+    <li>Don't use tables!
+      <table bgcolor="yellow">
+        <thead>
+          <tr>
+            <th>
+              This is a header!
+            </th>
+            <th>
+              This is another header
+            </th>
+          </tr>
+        </thead>
+        <tr>
+          <td>This is really annoying to type</td>
+          <td>And look at</td>
+        </tr>
+        <tr>
+          <td>It's just bothersome in general</td>
+          <td>Don't use tables!</td>
+        </tr>
+        <tfoot>
+          <tr>
+            <td>This is a very professional &amp; quality comment</td>
+          </tr>
+        </tfoot>
+      </table>
+    </li>
+    <li>
+      Do I really need another reason?
+    </li>
+  </ol>
+
+  <h3>Now you can try filling out this form that doesn't do anything!</h3>
+  <form method="get" action="dosomething.anythingbutphp">
+    <input type="radio" name="RADio" value="1">Neural Nets Are The Best<br>
+    <input type="radio" name="RADio" value="2">Like literally the best<br>
+    <textarea name="NAME" cols=40 rows=10 placeholder="Type your feelings on Neural Nets"></textarea>
+    <input type="button" value="Submit"><br>
+
+  </form>
+
+  <!-- You didn't say we couldn't use a script, right? -->
+  <script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.canvas.width = window.innerWidth;
+    ctx.canvas.style.border = "none";
+    
+    ctx.font = "30px Verdana";
+// Create gradient
+var gradient = ctx.createLinearGradient(0, 0, c.width, 0);
+gradient.addColorStop("0", "red");
+gradient.addColorStop("0.25", "orange");
+gradient.addColorStop("0.50", "blue");
+gradient.addColorStop("0.75", "green");
+// Fill with gradient
+ctx.fillStyle = gradient;
+ctx.fillText("Neural Nets are literally the best", 10, 90);
+
+</script>
+
+</body>
+</html>
